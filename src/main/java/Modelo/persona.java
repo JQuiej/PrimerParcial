@@ -6,11 +6,11 @@ package Modelo;
  * @author Quiej
  */
 public class persona {
-  private int id;
-  private String nombre;
-  private String apellido;
-  private String direccion;
-  private String telefono;
+  public int id;
+  public String nombre;
+  public String apellido;
+  public String direccion;
+  public String telefono;
 
     public int getId() {
         return id;

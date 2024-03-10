@@ -42,7 +42,11 @@ public class FicheroTexto {
                 
                 FileWriter ingresar = new FileWriter(fichero, true);
                 for(empleado reporte : datos){
-                 ingresar.write(reporte.toString() + "\n");   
+                 ingresar.write(reporte.getId() + ", " +
+                     reporte.getCodigo() + ", " + reporte.getNombre() + ", " +
+                         reporte.getApellido()+ ", " + reporte.getDireccion() + ", " 
+                         + reporte.getTelefono()+ ", " + reporte.getPuesto()+ ", "+
+                         reporte.getSalario()+ "\n");   
                 }
                 ingresar.close();
                 System.out.println("Dato ingresado con exito");
@@ -56,7 +60,11 @@ public class FicheroTexto {
                 
                 FileWriter ingresar = new FileWriter(fichero, true);
                 for(cliente reporte : datos){
-                 ingresar.write(reporte.toString() + "\n");   
+                    ingresar.write(reporte.getId() + ", " +
+                    reporte.getCodigo() + ", " + reporte.getNombre() + ", " +
+                         reporte.getApellido()+ ", " + reporte.getDireccion() + ", " 
+                         + reporte.getTelefono()+ ", "+
+                         reporte.getSaldo()+ "\n");   
                 }
                 ingresar.close();
                 System.out.println("Dato ingresado con exito");

@@ -13,8 +13,8 @@ public class cliente extends persona{
     
     public ArrayList<cliente> clientes = new ArrayList();
     FicheroTexto fichero = new FicheroTexto();
-    private int Codigo;
-    private int saldo;
+    public int Codigo;
+    public int saldo;
 
     public int getCodigo() {
         return Codigo;

@@ -1,0 +1,2 @@
+1, 1, Juan, Pedro, Gualan, 45879654, Vendedor, 3500
+2, 2, Raul, Fernandez, Estanzuela, 45857545, oficinista, 2500

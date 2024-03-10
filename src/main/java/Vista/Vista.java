@@ -189,7 +189,7 @@ public class Vista extends javax.swing.JFrame implements ActionListener{
             }
             if(ComPersona.getSelectedItem().toString().equals("Cliente")){
               clientes.consultarCliente(Integer.parseInt(txtId.getText()), Integer.parseInt(txtCod.getText()),txtNombre.getText(),
-                       txtApellido.getText(), txtDireccion.getText(), txtTelefono.getText(), Integer.parseInt(txtSalario.getText()));  
+                       txtApellido.getText(), txtDireccion.getText(), txtTelefono.getText(), Integer.parseInt(txtSaldo.getText()));  
             }
             TablaAc();
         }

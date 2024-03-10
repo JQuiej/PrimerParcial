@@ -15,9 +15,9 @@ public class empleado extends persona{
    public ArrayList<empleado> empleados = new ArrayList();
    FicheroTexto fichero = new FicheroTexto();
    
-   private int codigo;
-   private String puesto;
-   private int salario;
+   public int codigo;
+   public String puesto;
+   public int salario;
 
     public int getCodigo() {
         return codigo;
